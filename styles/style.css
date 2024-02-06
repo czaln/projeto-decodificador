@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin: 2%;
+    flex: 1 0 auto;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.conteudo__insert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+
+#input__texto {
+    font-size: 2rem;
+    font-weight: 400;
+    border: none;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+    height: 50vh;
+}
+
+::placeholder {
+    color: #0A3871;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color: #0A3871;
+}
+
+.aviso {
+    display: flex;
+}
+
+.aviso p {
+    font-size: 0.75rem;
+}
+
+.criptografia__descriptografia {
+    display: flex;
+    gap: 1.8%;
+}
+
+.criptografar {
+    background-color: #0A3871;
+    border: none;
+    color: #FFFF;
+    border-radius: 20px;
+    padding: 1%;
+    width: 30%;
+}
+
+button {
+    border: 1px solid #0A3871;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 1%;
+    width: 30%;
+    height: 7vh;
+    color: #0A3871;
+    background-color: #E5E5E5;
+    cursor: pointer;
+}
+
+.output {
+    width: 25%;
+    height: 97%;
+    background-color: white;
+    border-radius: 32px;
+    padding: 2% 2% 0 2%;
+    box-sizing: border-box;
+    box-shadow: 0 1vh 1.9vh #CED4DA;
+}
+
+.output__sem__texto {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+    padding-bottom: 10%;
+}
+
+.output__sem__texto img {
+    width: 100%;
+    height: 100%;
+}
+
+.output__sem__texto__p {
+    text-align: center;
+}
+
+.titulo__sem__texto {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.paragrafo__sem__texto {
+    font-size: 1rem;
+}
+
+.output .output__com__texto {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 97%;
+    gap: 5%;
+
+}
+
+.output__texto {
+    font-size: 1.5rem;
+    color: #495057;
+    resize: none;
+    width: 100%;
+    height: 90%;
+    border: none;
+    border-radius: 16px;
+}
+
+.output__com__texto button {
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+}
+
+footer {
+    position: static;
+    bottom: 0vh;
+    width: 100%;
+    text-align: center;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Decodificador</title>
+            <link rel="stylesheet" href="styles/style.css">
+        </head>
+        <body>
+            <div class="container">
+                <header></header>
+                <main class="conteudo">
+                    <div class="logo">
+                        <img src="assets/Frame 6.png">
+                    </div>
+                    <div class="conteudo__insert">
+                        <div class="conteudo__insert__texto">
+                            <textarea id="input__texto" type="text" placeholder="Digite seu texto"></textarea>
+                        </div>
+                        <div class="conteudo__insert__inferior">
+                            <div class="aviso">
+                                <img src="assets/bi_exclamation-circle-fill.png">
+                                <p>Apenas letras minúsculas e sem acento.</p>
+                            </div>
+                            <div class="criptografia__descriptografia">
+                                <button class="criptografar" onclick="criptografia()">Criptografar</button>
+                                <button onclick="descriptografia()">Descriptografar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="output">
+                        <div id="output__sem__texto" class="output__sem__texto">
+                            <div class="output__sem__texto__img">
+                                <img src="assets/High quality products 1 1.svg">
+                            </div>
+                            <div class="output__sem__texto__p">
+                                <p class="titulo__sem__texto">Nenhuma mensagem encontrada</p>
+                                <p class="paragrafo__sem__texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                            </div>
+                        </div>
+                        <div id="output__com__texto" class="output__com__texto">
+                            <textarea class="output__texto" id="output__texto" placeholder="Nenhuma mensagem encontrada" readonly></textarea>
+                            <button id="botao__copiar">Copiar</button>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    <p>Desenvolvidor por César A. - 01/2024 </p>
+                </footer>
+            </div>
+
+            <script src="script.js"></script>
+        </body>
+    </html>
